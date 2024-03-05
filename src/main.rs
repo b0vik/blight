@@ -2,9 +2,7 @@ use std::fs;
 // use std::path::Path;
 use serde::{Serialize, Deserialize};
 use dirs;
-use reqwest::blocking::Client;
 use clap::{Parser, Subcommand};
-use tokio::runtime::Runtime;
 
 
 #[derive(Debug, Deserialize)]
